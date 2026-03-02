@@ -1,0 +1,16 @@
+SISTEMA INTEGRADO: XPTO 				 DATA: 28/02/2026
+MÓDULO: ORÇAMENTO 						 HORA: 22:02
+			DEMONSTRATIVO ORCAMENTARIO
+----------------------------------------------------------------------------
+CODIGO NOME VALOR
+	 Data Descricao Valor
+----------------------------------------------------------------------------
+
+[33903024] MATERIAL P/ MANUT. DE BENS IMOVEIS/INSTALACOES - $16,000.00
+	 [11/05/2020] Aparelhos Sanitarios - $6,000.00
+	 [12/05/2020] Cimento - $2,000.00
+	 [13/05/2020] Amianto - $8,000.00
+
+
+							  Total: $189,000.00
+							  Código de Autenticação: fkyew6868fewjfhjjewf

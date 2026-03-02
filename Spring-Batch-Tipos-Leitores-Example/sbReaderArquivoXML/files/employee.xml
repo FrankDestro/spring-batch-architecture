@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+    <employee>
+        <id>1</id>
+        <name>John Franklin</name>
+        <department>Sales</department>
+    </employee>
+    <employee>
+        <id>2</id>
+        <name>Thomas Smith</name>
+        <department>HR</department>
+    </employee>
+    <employee>
+        <id>3</id>
+        <name>Adams Jefferson</name>
+        <department>Accounts</department>
+    </employee>
+</employees>

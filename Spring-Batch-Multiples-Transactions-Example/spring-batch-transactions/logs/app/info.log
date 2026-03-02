@@ -1,0 +1,36 @@
+2025-12-20 11:59:13.228 INFO  [main] c.s.t.SpringBatchTransactionsApplication - Starting SpringBatchTransactionsApplication using Java 21.0.9 with PID 17124 (/media/franklyn/Projetos2/IdeaProjects/Spring Batch Multiples Transactions/spring-batch-transactions/build/classes/java/main started by franklyn in /media/franklyn/Projetos2/IdeaProjects/Spring Batch Multiples Transactions/spring-batch-transactions)
+2025-12-20 11:59:13.231 INFO  [main] c.s.t.SpringBatchTransactionsApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-20 11:59:13.721 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-20 11:59:13.856 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@714f3da4
+2025-12-20 11:59:13.857 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-20 11:59:14.082 INFO  [main] c.s.t.SpringBatchTransactionsApplication - Started SpringBatchTransactionsApplication in 1.228 seconds (process running for 1.593)
+2025-12-20 11:59:14.084 INFO  [main] o.s.b.a.b.JobLauncherApplicationRunner - Running default command line with: []
+2025-12-20 11:59:14.086 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-12-20 11:59:14.136 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@661fe025
+2025-12-20 11:59:14.137 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-12-20 11:59:14.204 INFO  [main] o.s.b.c.l.s.TaskExecutorJobLauncher - Job: [SimpleJob: [name=job]] launched with the following parameters: [{'run.id':'{value=1, type=class java.lang.Long, identifying=true}'}]
+2025-12-20 11:59:14.230 INFO  [main] o.s.batch.core.job.SimpleStepHandler - Executing step: [step]
+2025-12-20 11:59:14.427 INFO  [main] o.s.batch.core.step.AbstractStep - Step: [step] executed in 196ms
+2025-12-20 11:59:14.445 INFO  [main] o.s.b.c.l.s.TaskExecutorJobLauncher - Job: [SimpleJob: [name=job]] completed with the following parameters: [{'run.id':'{value=1, type=class java.lang.Long, identifying=true}'}] and the following status: [FAILED] in 227ms
+2025-12-20 11:59:14.450 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-12-20 11:59:14.475 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-12-20 11:59:14.475 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-20 11:59:14.477 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-02-15 11:27:00.294 INFO  [main] c.s.t.SpringBatchTransactionsApplication - Starting SpringBatchTransactionsApplication using Java 21 with PID 25019 (/home/frank/Projetos/IdeaProjects/Spring Batch/Spring-Batch-Multiples-Transactions-Example/spring-batch-transactions/build/classes/java/main started by frank in /home/frank/Projetos/IdeaProjects/Spring Batch/Spring-Batch-Multiples-Transactions-Example/spring-batch-transactions)
+2026-02-15 11:27:00.296 INFO  [main] c.s.t.SpringBatchTransactionsApplication - No active profile set, falling back to 1 default profile: "default"
+2026-02-15 11:27:00.750 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-02-15 11:27:00.861 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1174a305
+2026-02-15 11:27:00.862 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-02-15 11:27:01.255 INFO  [main] c.s.t.SpringBatchTransactionsApplication - Started SpringBatchTransactionsApplication in 1.401 seconds (process running for 1.627)
+2026-02-15 11:27:01.257 INFO  [main] o.s.b.a.b.JobLauncherApplicationRunner - Running default command line with: []
+2026-02-15 11:27:01.261 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2026-02-15 11:27:01.266 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6aa3bfc
+2026-02-15 11:27:01.267 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2026-02-15 11:27:01.364 INFO  [main] o.s.b.c.l.s.TaskExecutorJobLauncher - Job: [SimpleJob: [name=job]] launched with the following parameters: [{'run.id':'{value=1, type=class java.lang.Long, identifying=true}'}]
+2026-02-15 11:27:01.413 INFO  [main] o.s.batch.core.job.SimpleStepHandler - Executing step: [step]
+2026-02-15 11:27:03.493 INFO  [main] o.s.batch.core.step.AbstractStep - Step: [step] executed in 2s78ms
+2026-02-15 11:27:03.506 INFO  [main] o.s.b.c.l.s.TaskExecutorJobLauncher - Job: [SimpleJob: [name=job]] completed with the following parameters: [{'run.id':'{value=1, type=class java.lang.Long, identifying=true}'}] and the following status: [COMPLETED] in 2s125ms
+2026-02-15 11:27:03.509 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-02-15 11:27:03.513 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2026-02-15 11:27:03.513 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-02-15 11:27:03.514 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

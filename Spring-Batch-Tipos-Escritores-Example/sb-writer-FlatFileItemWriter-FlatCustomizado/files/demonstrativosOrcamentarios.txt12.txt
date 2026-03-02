@@ -1,0 +1,14 @@
+SISTEMA INTEGRADO: XPTO 				 DATA: 28/02/2026
+MÓDULO: ORÇAMENTO 						 HORA: 22:02
+			DEMONSTRATIVO ORCAMENTARIO
+----------------------------------------------------------------------------
+CODIGO NOME VALOR
+	 Data Descricao Valor
+----------------------------------------------------------------------------
+
+[33903302] PASSAGENS PARA O EXTERIOR - $32,000.00
+	 [01/05/2020] Viagem para Las Vegas - $32,000.00
+
+
+							  Total: $189,000.00
+							  Código de Autenticação: fkyew6868fewjfhjjewf

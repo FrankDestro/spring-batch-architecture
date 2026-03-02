@@ -1,0 +1,16 @@
+SISTEMA INTEGRADO: XPTO 				 DATA: 28/02/2026
+MÓDULO: ORÇAMENTO 						 HORA: 22:02
+			DEMONSTRATIVO ORCAMENTARIO
+----------------------------------------------------------------------------
+CODIGO NOME VALOR
+	 Data Descricao Valor
+----------------------------------------------------------------------------
+
+[44905287] MATERIAL DE CONSUMO DE USO DURADOURO - $2,000.00
+	 [03/05/2020] Bandeiras - $500.00
+	 [04/05/2020] Guarda Sol - $500.00
+	 [02/05/2020] Cortina de sala - $1,000.00
+
+
+							  Total: $189,000.00
+							  Código de Autenticação: fkyew6868fewjfhjjewf

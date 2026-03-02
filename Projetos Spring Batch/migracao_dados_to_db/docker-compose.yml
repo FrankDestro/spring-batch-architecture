@@ -1,0 +1,19 @@
+networks:
+  spring-batch-network:
+    driver: bridge
+# ====================================================================================================================
+# Servidor SFTP
+# ====================================================================================================================
+services:
+  sftp:
+    image: atmoz/sftp:alpine
+    container_name: sftp-sysout-files
+    ports:
+      - "2222:22"
+    command: batch:batch123:1000
+    volumes:
+      - ./data/aurora/source:/home/batch/source
+    networks:
+      - spring-batch-network
+    profiles:
+      - sftp

@@ -1,0 +1,83 @@
+SISTEMA INTEGRADO: XPTO 				 DATA: 28/02/2026
+MÓDULO: ORÇAMENTO 						 HORA: 22:02
+			DEMONSTRATIVO ORCAMENTARIO
+----------------------------------------------------------------------------
+CODIGO NOME VALOR
+	 Data Descricao Valor
+----------------------------------------------------------------------------
+
+[44905224] EQUIPAMENTO DE PROTECAO SEGURANCA E SOCORRO - $1,000.00
+	 [01/05/2020] Alarme - $1,000.00
+
+[44905287] MATERIAL DE CONSUMO DE USO DURADOURO - $2,000.00
+	 [03/05/2020] Bandeiras - $500.00
+	 [04/05/2020] Guarda Sol - $500.00
+	 [02/05/2020] Cortina de sala - $1,000.00
+
+[33903016] MATERIAL DE EXPEDIENTE - $4,000.00
+	 [10/05/2020] Cartucho Impressora - $2,000.00
+	 [01/05/2020] Resma de Papel A4 - $2,000.00
+
+[44905218] COLECOES E MATERIAIS BIBLIOGRAFICOS - $8,000.00
+	 [11/05/2020] Livro de Algoritmos - $4,000.00
+	 [12/05/2020] Dicionarios - $4,000.00
+
+[33903024] MATERIAL P/ MANUT. DE BENS IMOVEIS/INSTALACOES - $16,000.00
+	 [11/05/2020] Aparelhos Sanitarios - $6,000.00
+	 [12/05/2020] Cimento - $2,000.00
+	 [13/05/2020] Amianto - $8,000.00
+
+[33903302] PASSAGENS PARA O EXTERIOR - $32,000.00
+	 [01/05/2020] Viagem para Las Vegas - $32,000.00
+
+[44905224] EQUIPAMENTO DE PROTECAO SEGURANCA E SOCORRO - $1,000.00
+	 [01/05/2020] Alarme - $1,000.00
+
+[44905287] MATERIAL DE CONSUMO DE USO DURADOURO - $2,000.00
+	 [03/05/2020] Bandeiras - $500.00
+	 [04/05/2020] Guarda Sol - $500.00
+	 [02/05/2020] Cortina de sala - $1,000.00
+
+[33903016] MATERIAL DE EXPEDIENTE - $4,000.00
+	 [10/05/2020] Cartucho Impressora - $2,000.00
+	 [01/05/2020] Resma de Papel A4 - $2,000.00
+
+[44905218] COLECOES E MATERIAIS BIBLIOGRAFICOS - $8,000.00
+	 [11/05/2020] Livro de Algoritmos - $4,000.00
+	 [12/05/2020] Dicionarios - $4,000.00
+
+[33903024] MATERIAL P/ MANUT. DE BENS IMOVEIS/INSTALACOES - $16,000.00
+	 [11/05/2020] Aparelhos Sanitarios - $6,000.00
+	 [12/05/2020] Cimento - $2,000.00
+	 [13/05/2020] Amianto - $8,000.00
+
+[33903302] PASSAGENS PARA O EXTERIOR - $32,000.00
+	 [01/05/2020] Viagem para Las Vegas - $32,000.00
+
+[44905224] EQUIPAMENTO DE PROTECAO SEGURANCA E SOCORRO - $1,000.00
+	 [01/05/2020] Alarme - $1,000.00
+
+[44905287] MATERIAL DE CONSUMO DE USO DURADOURO - $2,000.00
+	 [03/05/2020] Bandeiras - $500.00
+	 [04/05/2020] Guarda Sol - $500.00
+	 [02/05/2020] Cortina de sala - $1,000.00
+
+[33903016] MATERIAL DE EXPEDIENTE - $4,000.00
+	 [10/05/2020] Cartucho Impressora - $2,000.00
+	 [01/05/2020] Resma de Papel A4 - $2,000.00
+
+[44905218] COLECOES E MATERIAIS BIBLIOGRAFICOS - $8,000.00
+	 [11/05/2020] Livro de Algoritmos - $4,000.00
+	 [12/05/2020] Dicionarios - $4,000.00
+
+[33903024] MATERIAL P/ MANUT. DE BENS IMOVEIS/INSTALACOES - $16,000.00
+	 [11/05/2020] Aparelhos Sanitarios - $6,000.00
+	 [12/05/2020] Cimento - $2,000.00
+	 [13/05/2020] Amianto - $8,000.00
+
+[33903302] PASSAGENS PARA O EXTERIOR - $32,000.00
+	 [01/05/2020] Viagem para Las Vegas - $32,000.00
+
+
+							  Total: $189,000.00
+							  Código de Autenticação: fkyew6868fewjfhjjewf

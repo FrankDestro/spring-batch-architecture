@@ -1,0 +1,48 @@
+package com.sysout.transactionsmultiplesdatasource.jobA;
+
+import com.sysout.transactionsmultiplesdatasource.jobA.domain.Pessoa;
+import org.springframework.batch.core.Job;
+import org.springframework.batch.core.Step;
+import org.springframework.batch.core.job.builder.JobBuilder;
+import org.springframework.batch.core.launch.support.RunIdIncrementer;
+import org.springframework.batch.core.repository.JobRepository;
+import org.springframework.batch.core.step.builder.StepBuilder;
+import org.springframework.batch.item.Chunk;
+import org.springframework.batch.item.ItemReader;
+import org.springframework.batch.item.ItemWriter;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.transaction.PlatformTransactionManager;
+
+@Configuration
+public class JobAConfig {
+
+    private final JobRepository jobRepository;
+
+    public JobAConfig(JobRepository jobRepository) {
+        this.jobRepository = jobRepository;
+    }
+
+    @Bean
+    public Job job(Step step) {
+        return new JobBuilder("job", jobRepository)
+                .start(step)
+                .incrementer(new RunIdIncrementer())
+                .build();
+    }
+
+    @Bean
+    public Step step(
+            @Qualifier("reader") ItemReader<Pessoa> reader,
+            @Qualifier("writer") ItemWriter<Pessoa> writer,
+            @Qualifier("transactionManagerApp")
+            PlatformTransactionManager transactionManager
+    ) {
+        return new StepBuilder("step", jobRepository)
+                .<Pessoa, Pessoa>chunk(200, transactionManager) // Commit Interval com TM direto
+                .reader(reader)
+                .writer(writer)
+                .build();
+    }
+}
